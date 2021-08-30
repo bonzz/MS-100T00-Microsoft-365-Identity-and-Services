@@ -1,4 +1,4 @@
-**Learning Path 4 - Lab 3 - Exercise 1 - Review Key Features of Exchange Online**
+# Learning Path 4 - Lab 3 - Exercise 1 - Review Key Features of Exchange Online
 
 Holly Dickson is Adatum’s Enterprise Administrator. She has recently deployed
 Microsoft 365 in a virtualized lab environment. Now that she has a tenant
@@ -818,17 +818,19 @@ spammers) that you never want to receive email messages from.
 
 1.  In your **Edge** browser, you should still have a tab open for the **Office
     365 Security & Compliance center**. If so, select this tab and proceed to
-    the next step. Otherwise, navigate to the **Office 365 home** page, log in
-    as your tenant admin account, navigate to the **Microsoft 365 admin
-    center**, select **Show all** in the left-hand navigation pane, and then
-    select **Security**.
+    the next step. Otherwise, navigate to the **https://protection.office.com/** page, log in
+    as your tenant admin account.
+
+	![](Images/admin-center-sec.png)    
 
 2.  In the **Office 365 Security & Compliance** center, the **Home \> Policy \>
     Anti-malware** window should still be displayed from the prior task. In this
     thread at the top of the page, select **Policy**.
 
-3.  In the **Home \> Policy** window, under the **Policies** section, select
+3.  In the **Home \> Policy** window, under the **Threat policies** section, select
     **Anti-spam**.
+
+	![](Images/anti-spam.png)
 
 4.  The **Home \> Policy \> Anti-spam policies** window displays a list of
     default **Anti-spam policies** that control how messages are handled by
@@ -837,6 +839,8 @@ spammers) that you never want to receive email messages from.
     In the list of policies, select the **Connection filter policy (Default)**.
     This displays the current settings for this default spam filter in the
     right-hand pane.
+
+	![](Images/connection-filter.png)
 
 5.  In the **Connection filter policy (Default)** pane, the **Connection
     filtering** section displays options regarding which IP Addresses may send
@@ -852,6 +856,8 @@ spammers) that you never want to receive email messages from.
 6.  At the bottom of the **Connection filtering** section, select the **Edit
     connection filter policy** link.
 
+	![](Images/edit-connection.png)
+
 7.  In the **Connection filter policy (Default)** pane, select the **Turn on
     safe list** check box. This is a best practice that enables for your tenant
     the most common third-party sources of trusted senders that Microsoft
@@ -860,6 +866,8 @@ spammers) that you never want to receive email messages from.
 
 8.  Select **Save** to save this filter, and then select **Close** once the
     changes are successfully saved.
+
+	![](Images/turn-on-safe-list-save.png)
 
 9.  Leave your Edge browser open to the **Office 365 Security & Compliance**
     center for the next task.
@@ -890,13 +898,19 @@ email’s origin.
     There are three sections of settings – Bulk email threshold & spam
     properties, Actions, and Allowed and blocked senders and domains.
 
+	![](Images/anti-spam-policy.png)
+
 3.  Once you’ve finished reviewing these settings, scroll to the bottom of the
     **Bulk email threshold & spam properties** section and select the **Edit
     spam threshold and properties** link.
 
+	![](Images/edit-spam-settings.png)
+
 4.  In the **Spam threshold and properties** pane that appears, the **Bulk email
     threshold** at the top of the pane is set to **7** by default. Change this value
     to **5.**
+
+	![](Images/settings-save.png)
 
 5.  Under the **Mark as spam** section, update the following settings:
 
@@ -935,12 +949,16 @@ email’s origin.
         
         Enter a letter and then select a country with the letter in it that you
         want to filter. Repeat this step for a couple of countries.
+    
+    ![](Images/country-on.png)
 
 6.  Select **Save**.
 
 7.  This returns you to the **Anti-spam inbound policy (Default)** pane. Scroll
     to the bottom of the **Actions** section and select the **Edit actions**
     link. ‎
+
+    ![](Images/inbound-edit-actions.png)
 
 8.  In the **Actions** pane, update the following settings:
 
@@ -959,9 +977,13 @@ email’s origin.
     -   Prepend subject line with this text: enter **WARNING: This message
         contains potential spam!**
 
+    ![](Images/settings-inbound.png)
+
     -   Enable end-user spam notifications: select this check box
 
     -   Send end-user spam notifications every (days): **5**
+
+    ![](Images/notifications.png)
 
 9.  Select **Save** to update the settings, and then select **Close** to close
     the **Anti-spam inbound policy (Default)** pane.
@@ -993,6 +1015,8 @@ size.
 2.  In the **Microsoft 365 admin center**, in the left-hand navigation pane,
     select **Exchange**.
 
+    ![](Images/exchange.png)
+
 3.  In the **Exchange admin center**, in the left-hand navigation pane, select
     **Mail flow** to expand this group. Under this group, select **Rules**.
 
@@ -1005,6 +1029,8 @@ size.
     In the menu bar that appears over the list of mail flow rules, select the
     **plus (+)** sign, and in the menu that appears, select **Filter messages by
     size.**
+
+    ![](Images/create-new-rule.png)
 
 5.  In the **new rule** window that appears, enter the following information.
 
@@ -1032,6 +1058,8 @@ size.
     -   Under **Choose a mode for this rule** setting, select **Enforce.**
 
 6.  Select **Save**. This may take a minute or so to create the new rule.
+
+    ![](Images/new-rule.png)
 
 7.  Leave your Edge browser open as well as all the tabs.
 
@@ -1064,6 +1092,8 @@ type is set to authoritative.
     already set to **Authoritative,** so you don’t need to make any changes
     here.
 
+    ![](Images/accepted-domains.png)
+
 4.  However, let’s assume that you set the domain type to **Internal Relay**
     when you initially created the custom **xxxUPNxxx.xxxCustomDomainxxx.xxx**
     domain. If you wanted to change it now to **Authoritative,** you would
@@ -1080,6 +1110,8 @@ type is set to authoritative.
         
         However, since this domain is already set to **Authoritative** and you
         did not make any changes, select **Cancel** to close this window.
+
+    ![](Images/authoritative.png)
 
 5.  This concludes the exercise on reviewing Exchange Online features. You can
     close the **Exchange admin center** tab in your Edge browser. This will
