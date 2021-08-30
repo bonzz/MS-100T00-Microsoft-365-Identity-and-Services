@@ -643,13 +643,14 @@ enable you to customize organization management objects.
     now.
 
 2.  In your **Edge** browser, you should still have a tab open for the
-    **Microsoft 365 admin center**. If so, select this tab and proceed to the
-    next step; otherwise, navigate to the **Office 365 home** page, log in as
-    your tenant admin account, navigate to the **Microsoft 365 admin center**,
-    and then in the left-hand navigation pane, select **Show all**.
-
-3.  In the **Microsoft 365 admin center**, in the left-hand navigation pane
-    under **Admin centers**, select **Security**.
+    **Microsoft 365 admin center**. Click on **Compliance**. 
+    
+    ![](../images-ak-04-lab3-ex1/task7/new1.png)
+    
+3.  In the left pane navigation, Select **More resources**. Click **Open** in **Office 365 
+     security & compliance**. This will navigate to a new tab.
+     
+     ![](../images-ak-04-lab3-ex1/task7/new2.png)
 
 4.  In the **Office 365 Security & Compliance center**, in the left-hand
     navigation pane, select **Permissions**.
@@ -658,6 +659,8 @@ enable you to customize organization management objects.
     and then select the magnifying glass icon. This is a quick way to display
     the Organization Management role group so that you don’t have to scroll
     through a list of roles to find it.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new3.png)
 
 6.  The search will display the **Organization Management** role, which is the
     only role starting with **org**. Select the check box next to this role to
@@ -666,20 +669,31 @@ enable you to customize organization management objects.
 7.  In the **Organization Management** pane that appears on the right, scroll
     down to the **Members** section at the bottom of the pane. In the
     **Members** section, select **Edit**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new4.png)
 
 8.  On the **Editing Choose members** page, select **Choose members**.
 
+    ![](../images-ak-04-lab3-ex1/task7/new5.png)
+
 9.  On the **Choose members** page, select the **+Add** button.
+
+    ![](../images-ak-04-lab3-ex1/task7/new6.png)
 
 10. In the list of users, select the check box next to **Holly Dickson** and
     then select the **Add** button.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new7.png)
 
 11. On the **Choose members** page, Holly should appear in the list of members
     who will be assigned to this role group. Select **Done**.
 
 12. On the **Editing Choose members** page, select **Save**.
 
-13. On the **Organization Management** pane, select **Close**.
+13. On the **Organization Management** pane, select **Close**. You will see holly
+    displayed under Members. 
+
+    ![](../images-ak-04-lab3-ex1/task7/new8.png)
 
 14. In the **Office 365 Security & Compliance** center, in the left-hand
     navigation pane, select **Threat management** to expand this group, and then
@@ -687,6 +701,8 @@ enable you to customize organization management objects.
 
 15. In the **Home \> Policy** page, under the **Policies** section, select
     **Anti-malware**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/task7_9.png)
 
 16. In the **Home \> Policy \> Anti-malware** page, on the menu bar at the top
     of the window, select **+Create** to add a new malware filter. This starts
@@ -697,6 +713,8 @@ enable you to customize organization management objects.
 
 18. In the **Description** field, enter **This policy has been created to
     protect Adatum’s messaging environment** and then select **Next**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/task7_10.png)
 
 19. In the **Users and domains** page, enter **onmicrosoft.com** in the
     **Domains** field. This will display the list of Adatum domains containing
